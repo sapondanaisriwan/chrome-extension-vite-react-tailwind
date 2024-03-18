@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Vite React Tailwind Example",
+  "description": "Vite React Tailwind Template",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Vite React Tailwind Template"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "js": ["content-scripts/main.js"],
+      "matches": ["*://github.com/*"]
+    }
+  ]
+}

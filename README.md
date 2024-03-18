@@ -3,7 +3,7 @@
 1. **Clone the project**:
 
 ```bash
-git clone https://github.com/sapondanaisriwan/github-grid-view.git
+git clone https://github.com/sapondanaisriwan/chrome-extension-vite-react-tailwind.git
 ```
 
 2. **Install dependencies**:
@@ -43,4 +43,4 @@ Alternatively, you can click the "Run" button at the bottom left corner of your 
 1. Open `chrome://extensions` or `edge://extensions` in your browser.
 2. Toggle on the "Developer mode".
 3. Click on "Load unpacked" button.
-4. Select the folder `github-grid-view/dist`
+4. Select the folder `chrome-extension-vite-react-tailwind/dist`
